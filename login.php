@@ -7,7 +7,6 @@ if(isset($_SESSION['id_login'])){
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,11 +60,11 @@ if(isset($_SESSION['id_login'])){
                         <br>
                         <div class="form-group">
                             <p>Email</p>
-                            <input class="input" type="email" name="email" placeholder="Masukkan Email">
+                            <input class="input" type="email" name="email" placeholder="Masukkan Email" required>
                         </div>
                         <div class="form-group">
                             <p>Password</p>
-                            <input class="input" type="password" name="password" placeholder="Masukkan Password">
+                            <input class="input" type="password" name="password" placeholder="Masukkan Password" required>
                         </div>
                         <div class="form-group">
                             <div class="checkbox icheck">
